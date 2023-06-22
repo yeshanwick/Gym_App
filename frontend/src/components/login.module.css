@@ -1,0 +1,22 @@
+.btn{
+    @apply transform rounded-sm
+     bg-orange-400 py-2  
+     
+}
+
+.input {
+
+     @apply w-full transform
+     border-b-2 
+     bg-transparent 
+     text-lg duration-300
+     focus-within:border-orange-400
+}
+
+.field {
+    @apply w-full border-none
+     bg-transparent outline-none 
+     placeholder:italic
+     focus:outline-none
+
+}

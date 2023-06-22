@@ -1,0 +1,77 @@
+.section {
+    @apply max-w-4xl p-0  mx-auto
+     bg-indigo-600 rounded-md
+      shadow-md dark:bg-gray-800 mt-5 
+}
+
+.heading {
+    @apply text-white 
+    font-bold text-2xl 
+    
+}
+
+
+
+.field {
+    @apply block w-full
+     px-4 py-2 mt-2 text-orange-500 
+     bg-white border border-gray-300
+      rounded-md dark:bg-gray-800 
+      dark:text-gray-300 dark:border-orange-500 
+      focus:border-orange-500
+     dark:focus:border-orange-500 
+     focus:outline-none focus:ring
+                 
+}
+
+.topic
+{
+    @apply text-white
+   dark:text-gray-200
+}
+
+.labels{
+    @apply text-white
+   dark:text-gray-200
+}
+
+.btn 
+{
+    @apply border border-orange-500
+     hover:bg-orange-400 hover:text-black
+     text-white font-bold 
+     py-2 px-4 rounded 
+      
+     
+}
+
+.chkbox
+{
+    @apply w-3 h-3 mr-3 ml-3
+}
+
+.dropdown
+{
+    @apply bg-orange-500
+     border border-orange-500 
+     text-gray-900 text-sm rounded-lg
+      focus:ring-blue-500  block w-full p-2.5
+       dark:bg-gray-700 dark:border-orange-500
+         dark:text-white mt-2
+        
+}
+
+
+
+.shadowfield
+{
+    @apply block w-full
+     px-4 py-2 mt-2 text-orange-300 
+     bg-white border border-gray-300
+      rounded-md dark:bg-gray-800 
+      dark:text-gray-300 dark:border-orange-400 
+      focus:border-orange-500
+     dark:focus:border-orange-500 
+     focus:outline-none focus:ring
+     placeholder-orange-500
+}
